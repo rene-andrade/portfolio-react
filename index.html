@@ -1,85 +1,13 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfólio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-    <header>
-        <nav>
-            <div class="logo">Portfolio</div>
-            <ul>
-                <li><a href="#sobre">Sobre Mim</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section id="sobre">
-            <h2>Sobre Mim</h2>
-            <img src="perfil.jpg" alt="Foto de Renê Andrade">
-            <div class="nome">
-                <h4>Renê Andrade</h4>
-            </div>
-            <div class="descricao">
-                <p>Olá! Sou estudante de Sistemas para Internet e desenvolvedor em busca de novos desafios. Apaixonado
-                    por tecnologia.</p>
-            </div>
-        </section>
-
-        <section id="projetos">
-            <h2>Meus Projetos</h2>
-            <div id="lista-projetos" class="grid-projetos">
-            </div>
-        </section>
-
-        <section id="contato">
-            <h2>Contato</h2>
-
-            <form action="#" method="post">
-                <div class="campo">
-                    <label for="nome">Nome:</label>
-                    <input type="text" id="nome" name="nome" required>
-                </div>
-
-                <div class="campo">
-                    <label for="email">E-mail:</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-
-                <div class="campo">
-                    <label for="mensagem">Mensagem:</label>
-                    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
-                </div>
-
-                <button type="submit">Enviar</button>
-            </form>
-        </section>
-
-        <section id="contato-email">
-            <h2>Contato por E-mail</h2>
-
-            <p>Entre em contato comigo através do email: <a href="mailto: renelerus@gmail.com">renelerus@gmail.com</a>
-            </p>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2026 - Desenvolvido por Renê Andrade</p>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
-
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio-react</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
